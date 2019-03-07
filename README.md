@@ -1,7 +1,3 @@
-~~ <script type="text/x-mathjax-config">
-~~ MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});
-~~ </script>
-~~ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 # Cross-edge Computation Offloading
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/NarcissusHliangZhao/Cross-edge-Computation-Offloading/blob/master/LICENSE.txt)
 
@@ -28,11 +24,9 @@ metrics.
 + python package **racos**: 
 This package contains the algorithm named Racos, which is a specific algorithm based on Sampling-And-Classification (SAC) Framework. Details can be 
 found at http://lamda.nju.edu.cn/yuy/research_sal.ashx.
-***
 
 + directory **dataset**:
 This directory contains the real-life dataset of base stations in Melbourne CBD area.
-***
 
 + python package **cross_edge_offloading**:
 This package contains the algorithms proposed in our work. The package named **cco** is the implementation of main algorithm. The package named 
