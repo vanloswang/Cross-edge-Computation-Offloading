@@ -1,3 +1,7 @@
+~~ <script type="text/x-mathjax-config">
+~~ MathJax.Hub.Config({tex2jax: {inlineMath:[['$','$']]}});
+~~ </script>
+~~ <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 # Cross-edge Computation Offloading
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/NarcissusHliangZhao/Cross-edge-Computation-Offloading/blob/master/LICENSE.txt)
 
@@ -20,20 +24,6 @@ metrics.
 
 
 ## Quick Start
-### Formulated Problem
-Denote $\vec{\epsilon}_i(t)$ as the offloading energy allocation vector with size $|\{j \in \mathcal{M} | 1\{I_{i,j}=1\}\}|$. The overall cost 
-of the $i$th mobile device in the $t$th time slot is
-$$ 
-    \mathcal{C}(\mathbf{I}_i(t)) &\triangleq& \max_{j \in \mathcal{M}_i(t): I_{i,j'}(t)=1} \big\{\tau_{i,j}^{tx}(t) + \tau_{i,j}^{rc}(t)\big\} \nonumber \\
-    &+& \tau_i^{lc} + \varphi \cdot \sum_{j \in \mathcal{M}_i(t)}I_{i,j}(t) + \varrho_i \cdot D_i(t).
-$$
-Therefore, the problem is formulated as 
-$$ 
-    \mathcal{P}_1: &\min\limits_{\forall i, \mathbf{I}_i(t), \alpha_i(t)}& \lim_{T \to \infty} 
-    \frac{1}{T} \sum_{t=0}^{T-1} \mathbb{E} \bigg[\sum_{i \in \mathcal{N}} \mathcal{C}(\mathbf{I}_i(t)) \bigg],
-$$
-with several constraints.
-
 ### Code Structure
 + python package **racos**: 
 This package contains the algorithm named Racos, which is a specific algorithm based on Sampling-And-Classification (SAC) Framework. Details can be 
