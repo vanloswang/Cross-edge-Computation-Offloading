@@ -13,7 +13,7 @@ class Racos(object):
     This class defines every properties and methods used in RACOS algorithm.
     """
 
-    def __init__(self, dimension, sample_size=15, iterations_num=30, budget=2000, pos_num=1, rand_prob=0.99,
+    def __init__(self, dimension, sample_size=20, iterations_num=20, budget=2000, pos_num=1, rand_prob=0.99,
                  uncertain_bits_num=1, online=False):
         """
         Initialization.
