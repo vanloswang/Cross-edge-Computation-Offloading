@@ -1,11 +1,5 @@
 MIT License
 
-COPYRIGHT
-=========
-
-Copyright (c) 2017 LAMDA (http://lamda.nju.edu.cn), Nanjing University, China
-All rights reserved.
-
 LICENSE
 =======
 
