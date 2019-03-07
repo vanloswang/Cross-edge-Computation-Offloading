@@ -1,4 +1,6 @@
 # Cross-edge Computation Offloading
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/NarcissusHliangZhao/Cross-edge-Computation-Offloading/blob/master/LICENSE.txt)
+
 A python package of Cross-edge Computation Offloading (CCO) algorithm and its distributed version, Decor for 
 Mobile Edge Computing (MEC). 
 
